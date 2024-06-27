@@ -1,0 +1,5 @@
+vim.keymap.set("n", "<leader>vp", ":VimuxPromptCommand<CR>")
+vim.keymap.set("n", "<leader>vq", ":VimuxCloseRunner<CR>")
+vim.keymap.set("n", "<leader>vi", ":VimuxInspectRunner<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>vl", ":VimuxRunLastCommand<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>vz", ":VimuxZoomRunner<CR>", { noremap = true, silent = true })
